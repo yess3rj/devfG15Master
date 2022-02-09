@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+
+  <header>
+    <h1>Bienvenidos al club fitness</h1>
+  </header>
+
+<fieldset>
+  <legend>Información general</legend>
+<form name="formulario" action="" method="">
+    <div>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" value="" placeholder="Escribe">
+    </div>
+    <div>
+      <label for="miembro">¿Eres miembro?</label>
+      <input type="radio" id="miembro" name="miembro" value="0">Miembro
+      <input type="radio" id="noMiembro" name="noMiembro" value="1">No miembro
+    </div>
+    <div>
+      <label for="caja">Escribe tu personalidad</label>
+      <textarea name="personalidad" id="pers" cols="80" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="correo">Email</label>
+      <input type="email" placeholder="" id="correo" name="correo">
+    </div>
+</form>
+</fieldset>
+
+<div>
+<label for="instalaciones">Instalaciones</label>
+<select name="" id="">Instalaciones
+  <option value="1">Pesas</option>
+  <option value="2">Alberca</option>
+  <option value="3">Canchas</option>
+</select>
+</div>
+<div><label for="fecha">Selecciona fecha para reservar</label></div>
+<div><input type="date" placeholder="" id="fecha" name="fecha">
+<input type="time"></div>
+<div><input type="checkbox" id="acuerdo" name="acuerdo" value="1">
+<label for="acuerdo">Estoy de acuerdo con las políticas del club</label></div>
+<div><button type="button">Enviar</button></div>
+</head>
+<body>
+  
+</body>
+</html>

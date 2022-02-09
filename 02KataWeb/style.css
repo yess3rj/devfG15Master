@@ -1,0 +1,21 @@
+h1{
+  color:blueviolet;
+  background-color: cadetblue;
+}
+
+p{
+  size: 20px;
+  color:teal;
+}
+
+#primer{
+  color: greenyellow;
+}
+
+#segundo{
+  background-color: blueviolet;
+}
+
+.tipo{
+  font-size: 30px;
+}

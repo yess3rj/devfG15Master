@@ -1,0 +1,91 @@
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*  vh es una medida relativa -> vw */
+  height: 100vh;
+}
+
+.padre {
+  width: 800px;
+  height: 800px;
+  border: 3px solid;
+  display: flex;
+  /*  flex-direction cambia la posicion de fila a columna */
+  flex-direction: column;
+  /* acomodar los elementos en mi eje x o horizontal */
+  justify-content: space-around;
+  /* acomodar los elementos en mi eje y o vertical*/
+  align-items: center;
+}
+
+.hijo {
+  width: 30%;
+  height: 30%;
+  border: 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+
+.hijo1 {
+  width: 30%;
+  height: 30%;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+
+.nieto {
+  width: 15%;
+  height: 15%;
+  border: 2px solid;
+  margin: 15px;
+}
+
+.padre2 {
+  width: 800px;
+  height: 800px;
+  border: 3px solid;
+  display: flex;
+  /*  flex-direction cambia la posicion de fila a columna */
+  flex-direction: row;
+  /* acomodar los elementos en mi eje x o horizontal */
+  justify-content: space-around;
+  /* acomodar los elementos en mi eje y o vertical*/
+  align-items: center;
+}
+
+.hijo2 {
+  width: 30%;
+  height: 30%;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+
+.hijo3 {
+  width: 30%;
+  height: 30%;
+  border: 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+/* .nieto2 {
+  width: 30%;
+  height: 30%;
+  border: 2px solid;
+  margin: 15px;
+} */

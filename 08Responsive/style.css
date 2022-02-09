@@ -1,0 +1,61 @@
+.padre{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: row;
+  margin: 0; */
+}
+
+.primero{
+  width: 33.3vw;
+  height: 100vh;
+  background-color: darkslateblue;
+  border: 1px solid;
+}
+
+.segundo{
+  width: 33.3vw;
+  height: 100vh;
+  background-color: darkslateblue;
+  border: 1px solid;
+}
+
+.tercero{
+  width: 33.3vw;
+  height: 100vh;
+  background-color: darkgoldenrod;
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 1000px) {
+  .padre{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .primero{
+    width: 48vw;
+  }
+  .segundo{
+    width: 48vw;
+  }
+  .tercero{
+    width: 100vw;
+  }
+}
+
+
+@media only screen and (max-width: 700px){
+  .padre{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .primero{
+    width: 100vw;
+  }
+  .segundo{
+    width: 100vw;
+  }
+  .tercero{
+    width: 100vw;
+  }
+}

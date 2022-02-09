@@ -1,0 +1,29 @@
+
+header{
+  padding: 30px;
+  background-color: rgb(205, 51, 81);
+  margin: 0px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+fieldset{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+legend{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
+
+
